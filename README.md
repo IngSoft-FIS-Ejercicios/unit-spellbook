@@ -9,19 +9,6 @@ Un libro de hechizos del mundo de Harry Potter. Cada hechizo tiene un **nombre**
 - Codificar casos de test unitario, analizar cobertura y profundidad de las pruebas
 - Implementar una nueva funcionalidad en una aplicación **TypeScript** existente
 
-### Estructura del proyecto
-
-```
-src/
-├── domain/          # Lógica del negocio (Spell, Spellbook)
-├── interface/       # Todo lo visual
-│   ├── main.ts      # Conecta el formulario con el dominio
-│   ├── style.css    # Estilos
-│   ├── favicon.ico
-│   └── img/         # Imagen principal e íconos por primera aparición
-└── tests/           # Pruebas unitarias
-index.html           # Formulario y lista de hechizos
-```
 
 ### Iniciar el proyecto
 
@@ -52,7 +39,7 @@ index.html           # Formulario y lista de hechizos
 
 > 💡 Se trabaja siempre sobre la rama `main` del fork.
 
-### Parte A — Análisis estático y formato (2 pts)
+### Parte A — Análisis estático y formato 
 
 1. En la terminal ejecutar `npm run format` y `npm run lint` para corregir formato y analizar código.
 2. Agregar reglas en `eslint.config.js` para generar warnings: `no-template-curly-in-string`, `no-useless-assignment`, `id-length` (`min: 3`), `no-magic-numbers` (con `ignore: [0, 1]`).
@@ -63,7 +50,7 @@ Hacer commit de los cambios y push al repositorio remoto.
 
 Crear un issue con título `Parte A` y subir una captura de la terminal con 0 warnings y 0 errores.
 
-### Parte B — Pruebas unitarias (2.5 pts)
+### Parte B — Pruebas unitarias 
 
 1. En la terminal ejecutar `npm run test`
 2. Codificar casos de test unitario hasta alcanzar 100% de cobertura en `Spell` y `Spellbook`
@@ -75,7 +62,7 @@ Hacer commit de los cambios y push al repositorio remoto.
 
 Crear un issue con título `Parte B` y subir una captura de la terminal que muestre ejecución de casos y cobertura 100%.
 
-### Parte C — Nueva funcionalidad: la serie (2.5 pts)
+### Parte C — Nueva funcionalidad: la serie 
 
 Ahora los hechizos también pueden haber aparecido por primera vez en una **serie**. Agregar esta opción a la aplicación, tanto en la lógica como en lo visual:
 
