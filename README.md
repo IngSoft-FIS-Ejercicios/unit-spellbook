@@ -35,9 +35,6 @@ Un libro de hechizos del mundo de Harry Potter. Cada hechizo tiene un **nombre**
 6. Abrir en el navegador la dirección que aparece en la terminal.
 7. Recorrer la app: agregar hechizos eligiendo cada una de las primeras apariciones, intentar agregar uno sin nombre, sin descripción o sin primera aparición, y agregar dos hechizos con el mismo nombre.
 
-> 💡 `npm run dev` queda ejecutándose en esa terminal. Para el resto de los comandos (`npm run lint`, `npm run test`, etc.) abrir una terminal nueva.
-
-> 💡 Se trabaja siempre sobre la rama `main` del fork.
 
 ### Parte A — Análisis estático y formato 
 
