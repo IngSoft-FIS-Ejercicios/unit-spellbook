@@ -84,3 +84,4 @@ Crear un issue con título `Parte C` y subir:
 - [ESLint](https://eslint.org/docs/latest/rules/)
 - [Prettier](https://prettier.io/docs/)
 - [TypeScript](https://www.typescriptlang.org/docs/)
+- [Vitest](https://vitest.dev/guide/)
